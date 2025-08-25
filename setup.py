@@ -3,7 +3,7 @@ from setuptools import setup
 VERSION = "0.1.0"
 
 setup(
-    name="llm-claude-code",
+    name="llm-claude-code-plugin",
     description="LLM plugin for Claude Code",
     author="Edward Champion",
     version=VERSION,

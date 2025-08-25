@@ -1,4 +1,4 @@
-# llm-claude-code
+# llm-claude-code-plugin
 
 [![PyPI](https://img.shields.io/pypi/v/llm-claude-code.svg)](https://pypi.org/project/llm-claude-code/)
 [![Changelog](https://img.shields.io/github/v/release/edwardchampion/llm-claude-code?include_prereleases&label=changelog)](https://github.com/edwardchampion/llm-claude-code/releases)
@@ -11,7 +11,7 @@ Plugin for [LLM](https://llm.datasette.io/) adding support for Claude Code model
 Install this plugin in the same environment as LLM:
 
 ```bash
-uv add llm-claude-code
+uv add llm-claude-code-plugin
 ```
 
 ## Prerequisites
@@ -185,7 +185,7 @@ To set up this plugin for development:
 
 ```bash
 git clone https://github.com/edwardchampion/llm-claude-code.git
-cd llm-claude-code
+cd llm-claude-code-plugin
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -e .

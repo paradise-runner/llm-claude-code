@@ -278,7 +278,7 @@ wheels = [
 ]
 
 [[package]]
-name = "llm-claude-code"
+name = "llm-claude-code-plugin"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
