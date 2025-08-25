@@ -1,8 +1,10 @@
 # llm-claude-code-plugin
 
-[![PyPI](https://img.shields.io/pypi/v/llm-claude-code.svg)](https://pypi.org/project/llm-claude-code/)
-[![Changelog](https://img.shields.io/github/v/release/edwardchampion/llm-claude-code?include_prereleases&label=changelog)](https://github.com/edwardchampion/llm-claude-code/releases)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/edwardchampion/llm-claude-code/blob/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/llm-claude-code.svg)](https://pypi.org/project/llm-claude-code-plugin/)
+[![Changelog](https://img.shields.io/github/v/release/paradise-runner/llm-claude-code?include_prereleases&label=changelog)](https://github.com/paradise-runner/llm-claude-code/releases)
+[![Tests](https://github.com/paradise-runner/llm-claude-code/workflows/Tests/badge.svg)](https://github.com/paradise-runner/llm-claude-code/actions/workflows/test.yml)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/paradise-runner/llm-claude-code/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/paradise-runner/llm-claude-code/blob/main/LICENSE)
 
 Plugin for [LLM](https://llm.datasette.io/) adding support for Claude Code models (Sonnet and Opus) via the Claude Code CLI.
 
@@ -184,7 +186,7 @@ If file attachments aren't working:
 To set up this plugin for development:
 
 ```bash
-git clone https://github.com/edwardchampion/llm-claude-code.git
+git clone https://github.com/paradise-runner/llm-claude-code.git
 cd llm-claude-code-plugin
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate

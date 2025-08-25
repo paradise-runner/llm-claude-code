@@ -1,11 +1,11 @@
 [project]
 name = "llm-claude-code-plugin"
-version = "0.1.1"
+version = "0.1.2"
 description = "LLM plugin for Claude Code integration"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "llm>=0.23"
+    "llm>=0.23",
 ]
 authors = [
     {name = "Edward Champion"}
@@ -20,6 +20,13 @@ claude_code = "llm_claude_code"
 [build-system]
 requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "pytest-cov>=6.2.1",
+    "ruff>=0.12.10",
+]
 
 [project.urls]
 Homepage = "https://github.com/paradise-runner/llm-claude-code"

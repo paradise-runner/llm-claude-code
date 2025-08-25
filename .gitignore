@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Pytest
+*.pytest_cache/
+.coverage
+coverage.xml
+
+# Formatting/Linting
+.ruff_cache
+
+# AI Artifacts
+CLAUDE.md
+.github/copilot_instructions.md
+AGENTS.md
