@@ -124,7 +124,6 @@ class ClaudeCodeBase(llm.Model):
 
             # Add the enhanced prompt as the last argument
             cmd.append(enhanced_prompt)
-            print(cmd)
 
             try:
                 # Execute Claude Code
